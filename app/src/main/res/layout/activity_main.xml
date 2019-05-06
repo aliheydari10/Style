@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/button_one"
+        android:text="Button One"
+        style="@style/MyButton"
+    />
+
+    <Button
+        android:id="@+id/button_two"
+        android:text="Button Two"
+        style="@style/MyButton.other"
+        />
+
+    <Button
+        android:id="@+id/button_three"
+      style="@style/MyButton"
+        android:text="Button Three"
+   />
+
+
+
+    <TextView
+        android:id="@+id/txt_1"
+        android:text="SampleText 1"
+        style="@style/MyText" />
+
+    <TextView
+        android:id="@+id/txt_2"
+        android:text="SampleText 2"
+        style="@style/MyText" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CheckBox" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F48FB1"
+        android:text="GO TO ACTIVITY TWO"
+        android:layout_margin="5dp"/>
+
+
+</LinearLayout>
